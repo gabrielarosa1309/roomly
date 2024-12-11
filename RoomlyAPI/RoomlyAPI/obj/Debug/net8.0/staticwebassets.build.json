@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "HA6HyFApgn1Un6g9hLNFiPZjm0X6Nal+8Z4v1efxRuc=",
+  "Source": "RoomlyAPI",
+  "BasePath": "_content/RoomlyAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

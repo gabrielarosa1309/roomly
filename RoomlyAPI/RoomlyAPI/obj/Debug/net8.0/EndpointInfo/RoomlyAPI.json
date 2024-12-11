@@ -1,0 +1,492 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API Roomly",
+    "description": "API para gereciamento de Salas - Backend API",
+    "contact": {
+      "name": "Gabriela Ramos - 2023 4DS",
+      "url": "https://github.com/gabrielarosa1309"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Equipamento": {
+      "get": {
+        "tags": [
+          "Equipamento"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Equipamento"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equipamentos"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equipamentos"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equipamentos"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Equipamentos"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Equipamento/{id}": {
+      "get": {
+        "tags": [
+          "Equipamento"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reserva": {
+      "get": {
+        "tags": [
+          "Reserva"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Reserva"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reserva"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reserva"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reserva"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Reserva"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reserva/{id}": {
+      "get": {
+        "tags": [
+          "Reserva"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sala": {
+      "get": {
+        "tags": [
+          "Sala"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Sala"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sala"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sala"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sala"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Sala"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sala/{id}": {
+      "get": {
+        "tags": [
+          "Sala"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TiposUsuario": {
+      "get": {
+        "tags": [
+          "TiposUsuario"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "TiposUsuario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TiposUsuario"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TiposUsuario"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TiposUsuario"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TiposUsuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TiposUsuario/{id}": {
+      "get": {
+        "tags": [
+          "TiposUsuario"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuario": {
+      "post": {
+        "tags": [
+          "Usuario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json-patch+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Usuario"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Equipamentos": {
+        "required": [
+          "tituloEquipamento"
+        ],
+        "type": "object",
+        "properties": {
+          "idEquipamento": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "tituloEquipamento": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Reserva": {
+        "required": [
+          "dataReserva",
+          "horarioReserva",
+          "idSala",
+          "idUsuario"
+        ],
+        "type": "object",
+        "properties": {
+          "idReserva": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "dataReserva": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "horarioReserva": {
+            "type": "string",
+            "format": "date-span"
+          },
+          "idUsuario": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "usuario": {
+            "$ref": "#/components/schemas/Usuario"
+          },
+          "idSala": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "sala": {
+            "$ref": "#/components/schemas/Sala"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Sala": {
+        "required": [
+          "capacidade",
+          "idEquipamento",
+          "tituloSala"
+        ],
+        "type": "object",
+        "properties": {
+          "idUsuario": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "tituloSala": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "capacidade": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "idEquipamento": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "equipamento": {
+            "$ref": "#/components/schemas/Equipamentos"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TiposUsuario": {
+        "required": [
+          "tituloTipoUsuario"
+        ],
+        "type": "object",
+        "properties": {
+          "idTipoUsuario": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "tituloTipoUsuario": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Usuario": {
+        "required": [
+          "email",
+          "idTipoUsuario",
+          "nome",
+          "senha"
+        ],
+        "type": "object",
+        "properties": {
+          "idUsuario": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "nome": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "senha": {
+            "maxLength": 60,
+            "minLength": 5,
+            "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{5,}$",
+            "type": "string"
+          },
+          "idTipoUsuario": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "tipoUsuario": {
+            "$ref": "#/components/schemas/TiposUsuario"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Value: Bearer TokenJWT ",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
