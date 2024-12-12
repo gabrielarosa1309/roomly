@@ -398,7 +398,7 @@
         ],
         "type": "object",
         "properties": {
-          "idUsuario": {
+          "idSala": {
             "type": "string",
             "format": "uuid"
           },
@@ -407,8 +407,8 @@
             "type": "string"
           },
           "capacidade": {
-            "minLength": 1,
-            "type": "string"
+            "type": "integer",
+            "format": "int32"
           },
           "idEquipamento": {
             "type": "string",

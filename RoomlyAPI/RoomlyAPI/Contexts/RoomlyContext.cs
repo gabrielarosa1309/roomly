@@ -25,7 +25,7 @@ namespace RoomlyAPI.Contexts
         /// <param name="optionsBuilder">Objeto com as configurações definidas</param>
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=INV11134\\SQLEXPRESS; initial catalog=Roomly; user Id = SPREADTEC\\gabriela.rosa; pwd = Senai@134; TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer("Data Source=INV11134\\SQLEXPRESS; initial catalog=Roomly; Trusted_Connection=True; Integrated Security=true; TrustServerCertificate=true;");
             base.OnConfiguring(optionsBuilder);
         }
     }

@@ -7,7 +7,7 @@ namespace RoomlyAPI.Domains
     public class Sala
     {
         [Key]
-        public Guid IdUsuario { get; set; }
+        public Guid IdSala { get; set; }
 
         [Column(TypeName = "VARCHAR(100)")]
         [Required(ErrorMessage = "O título da sala é obrigatório!")]
@@ -15,7 +15,7 @@ namespace RoomlyAPI.Domains
 
         [Column(TypeName = "INTEGER")]
         [Required(ErrorMessage = "A capacidade da sala é obrigatória!")]
-        public string? Capacidade { get; set; }
+        public int? Capacidade { get; set; }
 
 
         //referência para a entidade TiposUsuario

@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|c:\\users\\gabriela.rosa\\source\\repos\\roomlyapi\\roomlyapi\\contexts\\roomlycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|c:\\users\\gabriela.rosa\\desktop\\roomly\\roomlyapi\\roomlyapi\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|solutionrelative:roomlyapi\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|c:\\users\\gabriela.rosa\\desktop\\roomly\\roomlyapi\\roomlyapi\\domains\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|solutionrelative:roomlyapi\\domains\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|c:\\users\\gabriela.rosa\\desktop\\roomly\\roomlyapi\\roomlyapi\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|solutionrelative:roomlyapi\\controllers\\salacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|c:\\users\\gabriela.rosa\\desktop\\roomly\\roomlyapi\\roomlyapi\\contexts\\roomlycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|solutionrelative:roomlyapi\\contexts\\roomlycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|c:\\users\\gabriela.rosa\\source\\repos\\roomlyapi\\roomlyapi\\domains\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|solutionrelative:roomlyapi\\domains\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|c:\\users\\gabriela.rosa\\source\\repos\\roomlyapi\\roomlyapi\\domains\\equipamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDFA1FD2-2343-4E3A-A59A-08903D8499BD}|RoomlyAPI\\RoomlyAPI.csproj|solutionrelative:roomlyapi\\domains\\equipamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\Domains\\Reserva.cs",
-              "RelativeDocumentMoniker": "RoomlyAPI\\Domains\\Reserva.cs",
-              "ToolTip": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\Domains\\Reserva.cs",
-              "RelativeToolTip": "RoomlyAPI\\Domains\\Reserva.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "RoomlyAPI\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "RoomlyAPI\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T21:59:43.01Z",
+              "WhenOpened": "2024-12-12T16:54:26.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Equipamentos.cs",
-              "DocumentMoniker": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\Domains\\Equipamentos.cs",
-              "RelativeDocumentMoniker": "RoomlyAPI\\Domains\\Equipamentos.cs",
-              "ToolTip": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\Domains\\Equipamentos.cs",
-              "RelativeToolTip": "RoomlyAPI\\Domains\\Equipamentos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "SalaController.cs",
+              "DocumentMoniker": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\Controllers\\SalaController.cs",
+              "RelativeDocumentMoniker": "RoomlyAPI\\Controllers\\SalaController.cs",
+              "ToolTip": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\Controllers\\SalaController.cs",
+              "RelativeToolTip": "RoomlyAPI\\Controllers\\SalaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T21:16:55.841Z",
+              "WhenOpened": "2024-12-12T16:42:08.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Sala.cs",
+              "DocumentMoniker": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\Domains\\Sala.cs",
+              "RelativeDocumentMoniker": "RoomlyAPI\\Domains\\Sala.cs",
+              "ToolTip": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\Domains\\Sala.cs",
+              "RelativeToolTip": "RoomlyAPI\\Domains\\Sala.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T16:41:10.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RoomlyContext.cs",
-              "DocumentMoniker": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\Contexts\\RoomlyContext.cs",
+              "DocumentMoniker": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\Contexts\\RoomlyContext.cs",
               "RelativeDocumentMoniker": "RoomlyAPI\\Contexts\\RoomlyContext.cs",
-              "ToolTip": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\Contexts\\RoomlyContext.cs",
+              "ToolTip": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\Contexts\\RoomlyContext.cs",
               "RelativeToolTip": "RoomlyAPI\\Contexts\\RoomlyContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA5wBsAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T20:31:14.917Z",
               "EditorCaption": ""

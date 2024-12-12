@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\RoomlyAPI.csproj": {}
+    "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\RoomlyAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\RoomlyAPI.csproj": {
+    "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\RoomlyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\RoomlyAPI.csproj",
+        "projectUniqueName": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\RoomlyAPI.csproj",
         "projectName": "RoomlyAPI",
-        "projectPath": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\RoomlyAPI.csproj",
+        "projectPath": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\RoomlyAPI.csproj",
         "packagesPath": "C:\\Users\\gabriela.rosa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\obj\\",
+        "outputPath": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

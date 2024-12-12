@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b7+heCw2MuY=",
+  "dgSpecHash": "xeH+0J0sJ20=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabriela.rosa\\source\\repos\\RoomlyAPI\\RoomlyAPI\\RoomlyAPI.csproj",
+  "projectFilePath": "C:\\Users\\gabriela.rosa\\Desktop\\roomly\\RoomlyAPI\\RoomlyAPI\\RoomlyAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabriela.rosa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\gabriela.rosa\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

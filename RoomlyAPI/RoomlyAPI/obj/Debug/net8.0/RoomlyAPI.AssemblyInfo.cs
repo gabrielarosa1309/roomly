@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoomlyAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+509bcf90a02360a32db92d3194ee489447acf702")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoomlyAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoomlyAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
