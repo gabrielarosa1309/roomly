@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../../assets/fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+.input-component {
+    width: 530px;
+    height: 74px;
+    padding: 0 10px;
+    border-radius: 8px;
+    border-color: #8B53FF;
+    outline: none;
+
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    color: #533299;
+}
+
+.input-component::placeholder {
+    color: var(--color-dark-blue);
+}
+
+.button-component {
+    width: 530px;
+    height: 74px;
+    background-color: #8B53FF;
+
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}

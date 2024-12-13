@@ -1,0 +1,103 @@
+  @font-face {
+      font-family: Montserrat-Regular;
+      src: url(../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+  }
+
+  @font-face {
+      font-family: Montserrat-Bold;
+      src: url(../../assets/fonts/Montserrat/static/Montserrat-Bold.ttf);
+  }
+
+  .layout-grid-login {
+      display: flex;
+      height: 100vh;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .left-side-sign-in-up {
+      flex: 1;
+      height: 100vh;
+      background-image: linear-gradient(to bottom, #8B53FF, #533299);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .right-side-sign-in-up {
+      flex: 1;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+  }
+
+  .paragraph-left-login {
+      font-family: Montserrat-Bold;
+      color: white;
+      font-size: 32px;
+      width: 500px;
+      text-align: center;
+  }
+
+  .login-image {
+      width: 579px;
+      height: 438px;
+  }
+
+  .login-logo {
+      width: 240px;
+  }
+
+  .title {
+    font-family: Montserrat-Bold;
+    color: #533299;
+    font-size: 32px;
+  }
+
+  .sign-up-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .sign-up-link-text {
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+  }
+
+  .login-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .sign-up-link-click {
+    font-family: Montserrat-Bold;
+    text-decoration: none;
+    color: #8B53FF;
+    font-size: 24px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .sign-in-up-input {
+    font-family: Montserrat-Bold;
+  }
+
+  .password-requirement {
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    margin: 0; 
+    padding-left: 0px; 
+  }
+  
+  .password-requirement p {
+    margin: 0; 
+  }
